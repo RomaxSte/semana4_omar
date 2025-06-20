@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cool">#FFC107</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Colores principales del tema -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <!-- Color secundario -->
+    <color name="colorSecondary">#03DAC5</color>
+    <color name="colorSecondaryVariant">#018786</color>
+    <color name="colorOnSecondary">#000000</color>
+
+    <!-- Fondo y superficie -->
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorSurface">#DAD5E4F2</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorOnSurface">#000000</color>
+
+    <!-- Color de error -->
+    <color name="colorError">#B00020</color>
+    <color name="colorOnError">#FFFFFF</color>
+    <color name="cooll">#B9D0DD</color>
+    <color name="pla">#B137E2D2</color>
+    <color name="tv">#000000</color>
+</resources>

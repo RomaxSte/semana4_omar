@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navHomeFragment">
+
+    <fragment
+        android:id="@+id/navHomeFragment"
+        android:name="com.example.semana4omar.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment2_to_scheduleFragment2"
+            app:destination="@id/navScheduleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navScheduleFragment"
+        android:name="com.example.semana4omar.ui.fragments.ScheduleFragment"
+        android:label="fragment_schedule"
+        tools:layout="@layout/fragment_schedule" >
+        <action
+            android:id="@+id/action_scheduleFragment2_to_speckersFragment"
+            app:destination="@id/navSpeakerFragment" />
+        <action
+            android:id="@+id/action_navScheduleFragment_to_ScheduleDetaiDialogFragment"
+            app:destination="@id/ScheduleDetaiDialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navSpeakerFragment"
+        android:name="com.example.semana4omar.ui.fragments.SpeckersFragment"
+        android:label="fragment_speckers"
+        tools:layout="@layout/fragment_speckers" >
+        <action
+            android:id="@+id/action_speckersFragment_to_ubicationFragment"
+            app:destination="@id/navMapubiFragment" />
+        <action
+            android:id="@+id/action_navSpeakerFragment_to_SpeakersDetailDialogFragmen2"
+            app:destination="@id/SpeakersDetailDialogFragmen" />
+    </fragment>
+    <fragment
+        android:id="@+id/navMapubiFragment"
+        android:name="com.example.semana4omar.ui.fragments.UbicationFragment"
+        android:label="fragment_ubication"
+        tools:layout="@layout/fragment_ubication" >
+        <action
+            android:id="@+id/action_navMapubiFragment_to_UbicationDetaiDialogFragment"
+            app:destination="@id/UbicationDetaiDialogFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/SpeakersDetailDialogFragmen"
+        android:name="com.example.semana4omar.ui.fragments.SpeckersDetaiDialogFragment"
+        android:label="SpeakersDetailDialogFragmen"
+        tools:layout="@layout/fragment_speckers_detai_dialog"
+        />
+    <dialog
+        android:id="@+id/ScheduleDetaiDialogFragment"
+        android:name="com.example.semana4omar.ui.fragments.ScheduleDetaiDialogFragment"
+        android:label="ScheduleDetaiDialogFragment"
+        tools:layout="@layout/fragment_schedule_detai_dialog"
+        />
+    <dialog
+        android:id="@+id/UbicationDetaiDialogFragment"
+        android:name="com.example.semana4omar.ui.fragments.UbicationDetaiDialogFragment"
+        android:label="UbicationDetaiDialogFragment"
+        tools:layout="@layout/fragment_ubication_detai_dialog"
+        />
+</navigation>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    android:layout_margin="15dp"
+    app:cardCornerRadius="@dimen/esquinas_renodeadas" >
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:layout_margin="15dp"
+    android:src="@mipmap/ic_launcher_round" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="NOMBRE DEL TRABAJO"
+    android:textColor="#205B22"
+    android:textSize="20sp"
+    android:textStyle="bold"
+android:gravity="center_horizontal"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRABAJO"
+        android:textColor="#205B22"
+        android:textSize="20sp"
+        android:textStyle="bold"
+     android:gravity="center_horizontal"
+        />
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

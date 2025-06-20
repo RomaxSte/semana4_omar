@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">semana4omar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hora">00:00</string>
+    <string name="tipo_hora"> A.M.</string>
+    <string name="prov_tituloconferencia">Titulo conferencia</string>
+    <string name="prov_nombreexpositor">Nombre expositor</string>
+    <string name="prov_diseño">Design</string>
+    <string name="Ques_es">¿Qué es Mobile Summit?</string>
+
+    <string name="intro">SUMIT MOBILE es un sistema de gestión integral para distribuidores exentos, distribuidores autorizados, empresas y asociaciones. También existe una aplicación educativa llamada Learn With Sumit que proporciona clases en vivo interactivas y materiales de curso actualizados.</string>
+    <string name="introdi">Descripción conferencia lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </string>
+
+    <string name="cheduledetaildialig">TITULO DE LA CONFERENCIA</string>
+    <string name="temScheduledetailog">00:00</string>
+    <string name="Scheduledetailognombre">Nombre del Expositor</string>
+
+    <string name="textotextNombre">Omar Lozano Diaz</string>
+    <string name="textCarrera">Ing.Sistemas</string>
+    <string name="tvsCargo">Supervisor</string>
+
+    <string name="lugar_titulo">Centro Cultural UNS</string>
+    <string name="direccion_titulo">Dirección del lugar</string>
+    <string name="telefono_titulo">Telefóno del lugar</string>
+    <string name="wed_titulo">Sitio web del lugar</string>
+</resources>

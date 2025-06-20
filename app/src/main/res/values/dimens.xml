@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo">
+        100dp
+    </dimen>
+    <dimen name="logo2">
+        150dp
+    </dimen>
+    <dimen name="Altotoobar">75dp</dimen>
+
+    <dimen name="esquinas_renodeadas">3dp</dimen>
+    <dimen name="altologo">3dp</dimen>
+
+    <dimen name="TVtamanio">16sp</dimen>
+</resources>
